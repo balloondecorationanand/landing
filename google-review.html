@@ -1,0 +1,241 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Balloon Decorations Anand And All Events Google Review</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Read Google Reviews for Balloon Decorations Anand and All Events. Trusted balloon decoration services for birthdays, anniversaries, weddings, baby showers, corporate events, and special celebrations in Anand, Gujarat.">
+    <meta name="keywords" content="Balloon Decorations Anand, Balloon Decorator Anand, Event Decoration Anand, Birthday Decoration Anand, Google Reviews, Party Decoration Gujarat, Wedding Decoration Anand">
+    <meta name="author" content="Balloon Decorations Anand And All Events">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://balloondecorationanand.github.io/landing/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Balloon Decorations Anand And All Events Google Review">
+    <meta property="og:description" content="See customer Google Reviews for Balloon Decorations Anand and All Events. Professional balloon decoration and event setup services in Anand, Gujarat.">
+    <meta property="og:url" content="https://balloondecorationanand.github.io/landing/">
+    <meta property="og:site_name" content="Balloon Decorations Anand And All Events">
+    <meta property="og:image" content="https://balloondecorationanand.github.io/landing/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Balloon Decorations Anand And All Events Google Review">
+    <meta name="twitter:description" content="Read genuine Google Reviews from customers who booked balloon decoration and event services in Anand, Gujarat.">
+    <meta name="twitter:image" content="https://balloondecorationanand.github.io/landing/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff4081">
+
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary:#1d676b;
+        }
+
+        body {
+            background: radial-gradient(circle at top,#f8fafc,#e2e8f0);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* CENTER ICON */
+        .google-btn {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: white;
+            box-shadow: 0 20px 60px rgba(0,0,0,.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.3s;
+            animation: float 2.5s ease-in-out infinite;
+        }
+
+            .google-btn:hover {
+                transform: scale(1.05);
+                box-shadow: 0 25px 80px rgba(0,0,0,.25);
+            }
+
+            .google-btn i {
+                font-size: 70px;
+                background: conic-gradient( #4285F4, #DB4437, #F4B400, #0F9D58, #4285F4 );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+        /* FLOAT ANIMATION */
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        /* LABEL */
+        .text-label {
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 600;
+            color: #334155;
+        }
+
+
+        /* =========================
+             GOOGLE REVIEW MODAL
+        ========================= */
+        label {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .review-modal {
+            border-radius: 18px;
+            border: none;
+            box-shadow: 0 20px 50px rgba(0,0,0,.15);
+        }
+
+            .review-modal .modal-header {
+                background: var(--primary);
+                color: white;
+            }
+
+            .review-modal .btn-close {
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 10px;
+                opacity: 1;
+            }
+
+        /*.modal-dialog.modal-sm {
+            max-width: 400px;
+        }*/
+
+        textarea {
+            resize: none;
+            font-size: 14px;
+            line-height: 1.4;
+            min-height: 140px;
+        }
+
+        #reviewText {
+            height: auto;
+        }
+
+        .stars {
+            display: flex;
+            gap: 6px;
+        }
+
+            .stars i {
+                font-size: 20px;
+                cursor: pointer;
+                color: #ddd;
+            }
+
+                .stars i.active {
+                    color: #ffb400;
+                }
+    </style>
+</head>
+
+<body>
+
+    <!-- CENTER BUTTON -->
+    <div class="text-center">
+        <div class="google-btn" data-bs-toggle="modal" data-bs-target="#reviewModal">
+            <i class="fa-brands fa-google"></i>
+        </div>
+        <div class="text-label">Click to Leave Google Review</div>
+    </div>
+
+
+    <!-- TOAST -->
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3" style="z-index: 99999;">
+        <div id="reviewToast" class="toast text-bg-success border-0">
+            <div class="d-flex">
+                <div class="toast-body" id="toastMsg">Thank you!</div>
+                <button class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+     YOUR MODAL (UNCHANGED)
+========================= -->
+    <div class="modal fade" id="reviewModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content review-modal">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fa-solid fa-star me-2"></i>Leave Google Review
+                    </h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <label>Name</label>
+                    <input type="text" id="rName" class="form-control">
+
+                    <label class="mt-2">Occasion</label>
+                    <select id="rOccasion" class="form-select"></select>
+
+                    <label class="mt-2">Occasion Rating</label>
+                    <div id="occasionStars" class="stars"></div>
+
+                    <label class="mt-2">Overall Rating</label>
+                    <div id="overallStars" class="stars"></div>
+
+                    <label class="mt-2">Review</label>
+                    <textarea id="reviewText" class="form-control" rows="7"></textarea>
+
+                    <button id="submitReview" class="btn btn-success w-100 mt-3">
+                        Submit Review
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External JS file -->
+    <script src="js/review.js"></script>
+    <!--<script src="js/maintenance.js"></script>-->
+</body>
+</html>
