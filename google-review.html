@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -106,8 +106,18 @@
         .text-label {
             margin-top: 15px;
             text-align: center;
-            font-weight: 600;
-            color: #334155;
+            font-weight: 700;
+            background: linear-gradient( 90deg, #4285F4, #DB4437, #F4B400, #0F9D58, #4285F4 );
+            background-size: 300% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: googleShine 3s linear infinite;
+        }
+
+        @keyframes googleShine {
+            to {
+                background-position: 300% center;
+            }
         }
 
 
@@ -167,6 +177,41 @@
                 .stars i.active {
                     color: #ffb400;
                 }
+
+        /* Footer */
+        .footer-powered {
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            text-align: center;
+            color: #64748b;
+        }
+
+            .footer-powered a {
+                text-decoration: none;
+                font-weight: 700;
+                background: linear-gradient( 90deg, #1d676b, #00c9a7, #1d676b, #00c9a7, #1d676b );
+                background-size: 300% auto;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textShine 3s linear infinite;
+            }
+
+                .footer-powered a:hover {
+                    animation-duration: 1s;
+                }
+
+        @keyframes textShine {
+            0% {
+                background-position: 0% center;
+            }
+
+            100% {
+                background-position: 300% center;
+            }
+        }
     </style>
 </head>
 
@@ -230,6 +275,13 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer-powered">
+        Powered by
+    <a href="https://abronixtechnologies.github.io/abronix-landing/" target="_blank" rel="noopener noreferrer">Abronix Technologies
+    </a>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
