@@ -578,12 +578,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 320px) {
-    .hero-content h1 {
-        font-size: 28px;
+    .hero-content {
+        padding: 10px;
     }
 
+        .hero-content h1 {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .hero-content p {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+
     .hero-badge {
-        font-size: 12px;
+        font-size: 10px;
+        margin-bottom: 5px;
     }
 }
 
